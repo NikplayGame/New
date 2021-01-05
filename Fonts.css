@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-image: url('img/bg-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+display: block;
+width: 146px;
+height: 133px;
+margin: 0 auto;
+padding-top: 225px;
+}
+.icons {
+display: flex;
+list-style-type: none;
+justify-content: center;
+margin-top: 60px;
+}
+.icons__item {
+    padding: 10px;
+}
+.icons__item--circle {
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.title {
+    font-weight: 500;
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+}
+.title--thin {
+    font-weight: 100;
+}
