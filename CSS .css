@@ -1,4 +1,24 @@
-<div class="Green">
-background-colour:#51aa92
-{ width: 600px; height: 200px; border: none; }
-</div>
+.color {
+    width: 1024px; height: 250px;
+    background-color: #51aa92;
+}
+.image1 {
+   width:1024px;  height: 500px;
+   opacity: 0.45;
+}
+.textdev{
+margin-right:;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textsub {
+    font-size: 16pt;
+    color: red;
+}
+.input.text {
+    width:  200px;
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    border:1px solid #999;
+    font-size:16px;
+    font-family: Tahoma;
+}
